@@ -15,15 +15,23 @@ function App() {
         <color attach="background" args={["#ececec"]} />
         <Experience />
       </Canvas>
-      <h1 style={{
+
+      <div style={{
         position: "absolute",
-        fontSize: "4.6rem",
         top: 0,
-        fontFamily: "Arial",
-        margin: 0,
         marginLeft: "4px",
         pointerEvents: "none"
-      }}>Merve Simsek</h1>
+      }}>
+        <h1 style={{
+          fontSize: "4.6rem",
+          fontFamily: "Arial",
+          margin: 0      
+        }}>Merve Simsek</h1>
+        <a style={{
+          fontSize: "1.5rem",
+          pointerEvents: "all"
+        }} href="https://www.linkedin.com/in/mervesi/" target="_blank">https://www.linkedin.com/in/mervesi/</a>
+      </div>
     </>
   );
 }
