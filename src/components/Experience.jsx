@@ -6,9 +6,9 @@ export const Experience = () => {
     <>
       <OrbitControls />
       <Sky />
-      <Environment preset="sunset"/>
+      <Environment preset="sunset" />
       <group position-y={-1}>
-      <ContactShadows
+        <ContactShadows
           opacity={0.42}
           scale={10}
           blur={1}
@@ -24,10 +24,10 @@ export const Experience = () => {
         <meshNormalMaterial />
       </mesh> */}
 
-<mesh scale={5} rotation-x={-Math.PI * 0.5} position-y={-1.1}>
-          <planeGeometry />
-          <meshStandardMaterial color="white" />
-        </mesh>
+      <mesh scale={5} rotation-x={-Math.PI * 0.5} position-y={-1.01}>
+        <planeGeometry />
+        <meshStandardMaterial color="white" />
+      </mesh>
     </>
   );
 };

@@ -21,7 +21,8 @@ function App() {
         top: 0,
         fontFamily: "Arial",
         margin: 0,
-        marginLeft: "4px"
+        marginLeft: "4px",
+        pointerEvents: "none"
       }}>Merve Simsek</h1>
     </>
   );
